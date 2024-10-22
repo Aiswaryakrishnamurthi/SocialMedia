@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: white;
+}
+.profile{
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: contain;
+    width: 80px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.header{
+    display: block;
+}
+.bx{
+    margin: 1rem;
+    float: left;
+}
+.user{
+    
+  margin-top: 5rem;
+}
+.dot{
+    margin: 0.5em;
+    float: right;
+}
+.user{
+    justify-content: center;
+   
+}
+.followbutton{
+    background-color:  rgb(5, 117, 223); 
+    margin-top: 2rem;
+    padding: 8px ;
+    width: 100%;
+}
+
+.followed{
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	
+}

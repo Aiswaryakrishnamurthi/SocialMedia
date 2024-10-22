@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    background-color: black;
+    
+}
+
+.background {
+    position: absolute; /* Make sure the background is properly positioned */
+    z-index: 1; /* Low z-index to ensure it stays behind other elements */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container{
+	position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-grey);
+}
+
+.center{
+    width: 350px;
+     border: 1px soild white;
+    border-radius: 4px; 
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.inputelement{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+   
+}
+.inputelement .inputText{
+   padding: 8px;
+   font-size: 12px;
+   margin-top: 10px;
+   color: white;
+}
+.inputText:focus{
+    outline: gray;
+}
+.inputButton{
+    background-color: rgb(5, 117, 223);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+}
+
+    
+
+.line{
+    display: flex;
+    margin-top: 7px;
+}
+.arrow{
+    background-color: gray;
+    height: 1px;
+    width: 140px;
+}
+.content{
+    color: gray;
+    margin-top:-8px ;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.social_icon{
+	position: relative;
+	z-index: 1000;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bx{
+  padding: 5px;
+  color: rgb(0, 55, 107);
+}
+.social_icon span{
+    color:  rgb(0, 55, 107);
+    font-size: 14px;
+    font-weight: 600;
+}
+.social_icon i:hover{
+    color: white;
+}
+.social_icon span:hover{
+    color: white;
+}
+.social_icon a{
+    text-decoration: none;
+    color:  rgb(0, 55, 107);
+}
+.social_icon a:hover{
+    color: white;
+}
+.forgetpassword{
+    margin:auto ;
+    position: relative;
+	z-index: 10;
+    color:#00376b;
+    margin-bottom:0px;
+}
+.forgetpassword p:hover{
+    color: white;
+}
+.forgetpassword a{
+    text-decoration: none;
+    color:  rgb(0, 55, 107);
+}
+.forgetpassword a:hover{
+    color: white;
+}
+.footer{
+    margin-top:30px ;
+    position: relative;
+	z-index: 10;
+    /* border: 1px solid rgb(195, 195, 195); */
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+.footer p{
+    color: rgb(0, 66, 128);
+    font-weight: 400;
+}
+.footer a{
+    color: rgb(0, 66, 128);
+   text-decoration: none;
+}
+.footer a:hover{
+    color: white;
+}
+.app img{
+    width: 140px;
+    height: 80px;
+    padding-left: 10px;
+}

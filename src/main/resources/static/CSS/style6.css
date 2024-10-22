@@ -1,0 +1,95 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #f5f5f5;
+}
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-header {
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    margin-top: 10px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.profile-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-item {
+    flex: 1;
+    min-width: 200px; /* Adjust size as needed */
+}
+.followbutton{
+	margin:1.5rem;
+    background-color:rgb(5, 117, 223);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.followed{
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	
+}
+.msgbutton {
+    margin: 1.5rem;
+    background-color: rgb(5, 117, 223);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none; 
+    display: inline-block; 
+    text-align: center; 
+}
+.msgbutton a{
+	text-decoration: none; 
+	background-color: rgb(5, 117, 223);
+    color: white;
+    border: none;
+}
