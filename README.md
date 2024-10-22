@@ -22,7 +22,7 @@ Installation and Setup
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-repo/socialmedia-website.git  
+git clone [https://github.com/your-repo/socialmedia-website.gi](https://github.com/Aiswaryakrishnamurthi/SocialMedia)t  
 cd socialmedia-website  
 2. Configure the Database
 Set up a MySQL database and update the application.properties file:
